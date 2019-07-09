@@ -1,5 +1,6 @@
 from random import *
 
+
 def dice(die):
     if die == 4:
         print(randint(1, 4))
