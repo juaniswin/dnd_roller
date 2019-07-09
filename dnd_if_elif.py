@@ -1,3 +1,5 @@
+#this will ask you what dice you'd like to roll according to if and elif statements
+
 from random import *
 
 print("Press d then ( on the keyboard, fill in for (x); x = 4, 6, 8, 10, 12, 20, or 100")
