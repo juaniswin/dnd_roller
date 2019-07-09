@@ -1,3 +1,5 @@
+#this will roll all the dice and output all at once
+
 from random import *
 
 print("~D4~")

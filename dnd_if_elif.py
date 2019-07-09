@@ -1,3 +1,5 @@
+#this will ask you what dice you'd like to roll according to if statements
+
 from random import *
 
 print("Press d then ( on the keyboard, fill in for (x); x = 4, 6, 8, 10, 12, 20, or 100")
@@ -13,9 +15,9 @@ def d(dice):
     if dice == 10:
         print(randint(1, 10))
     if dice == 12:
-        print(randint(1, 10))
-    if dice == 20:
         print(randint(1, 12))
+    if dice == 20:
+        print(randint(1, 20))
     if dice == 100:
         items = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
         x = sample(items, 1)
