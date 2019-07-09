@@ -1,6 +1,6 @@
 from random import *
 
-print("Press d on the keyboard then fill in for (x); x = 4, 6, 8, 10, 12, 20, or 100")
+print("Press d then ( on the keyboard, fill in for (x); x = 4, 6, 8, 10, 12, 20, or 100")
 
 
 def d(dice):
